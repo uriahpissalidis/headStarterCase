@@ -6,17 +6,17 @@ function App1() {
   const [inCall, setInCall] = useState(false);
 
   return (
-    <div className="App" style={{height: "100%"}}>
+    <div className="App" style={{ height: "100vh", width: "200vh" }}>
       {inCall ? (
-      <VideoCall setInCall={setInCall} />
-      ) : ( 
-      <Button 
-      variant="contained" 
-      color="primary" 
-      onClick={() => setInCall(true)}
-      >
-        Join Call
-      </Button>
+        <VideoCall setInCall={setInCall} />
+      ) : (
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={() => setInCall(true)}
+        >
+          Join Call
+        </Button>
       )}
     </div>
   );
