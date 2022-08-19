@@ -7,6 +7,7 @@ import Account from './pages/Account';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
 import App1 from './App1';
+import App2 from './App2';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/signin' element={<Signin />} />
           <Route path='/chatroom' element={<App1 />} />
+          <Route path='/calendar' element={<App2 />} />
           <Route
             path='/account'
             element={

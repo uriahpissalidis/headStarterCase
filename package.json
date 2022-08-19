@@ -10,10 +10,13 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "agora-rtc-react": "github:AgoraIO-Community/agora-rtc-react#v1.0.1",
+    "custom-agora-rtc-react": "^1.0.0",
     "firebase": "^9.9.3",
     "react": "^18.1.0",
+    "react-color": "^2.19.3",
     "react-dom": "^18.1.0",
     "react-google-button": "^0.7.2",
+    "react-modal": "^3.15.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
